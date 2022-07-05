@@ -25,8 +25,10 @@ echo $backupName > file.txt
 #backupRouter
 ssh $userName@$target "system backup save name=$backupName"
 #sleep 5s
+
 #backupName1=" manmeja-20220606"
 echo $backupName > file.txt
+
 #sendBackupFileToLocal
 scp $userName@$target:"/${backupName}.backup" /path/to/backup
 
