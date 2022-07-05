@@ -53,6 +53,5 @@ man20820@manvm:~/sshbackup/mikrotik-ssh-backup$
 sudo crontab -e
 
 ```bash
-0 1 * * * /home/man20820/sshbackup/mi
-krotik-ssh-backup/sshbackup.sh
+0 1 * * * /home/man20820/sshbackup/mikrotik-ssh-backup/sshbackup.sh
 ```
