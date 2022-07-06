@@ -10,7 +10,7 @@ This script allow to backup your router configuration remotely. Written in bash 
 git clone https://github.com/man20820/mikrotik-ssh-backup.git
 ```
 
-### Use SSH Key
+### Prerequisite
 
 Use SSH Key instead of password. The method can be seen in the following article: https://mikrotik.co.id/artikel/491/
 
@@ -50,7 +50,7 @@ man20820@manvm:~/sshbackup/mikrotik-ssh-backup$
 
 ### Set scheduler with cron
 
-sudo crontab -e
+crontab -e
 
 ```bash
 0 1 * * * /home/man20820/sshbackup/mikrotik-ssh-backup/sshbackup.sh
